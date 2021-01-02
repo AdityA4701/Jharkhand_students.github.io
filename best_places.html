@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Places</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+* {box-sizing: border-box}
+body { margin:0;}
+.mySlides {display: none}
+img {vertical-align: middle;}
+ h1 {
+        text-decoration: underline;
+        margin-bottom: 1rem;
+        color: rgb(71, 175, 189);
+      }
+      p{
+        font-size: 1.2rem;
+      }
+      .img {
+        padding:0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0.3rem solid gray;
+      }
+      h2 {
+        text-decoration: underline;
+      }
+      h1,h2 {
+        text-align: center;
+      }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+    <!-- javascript -->
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    
+    <div class="container">
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="pilgrimage.html">Pilgrimage Sites</a>
+        <a href="best_places.html">Places Of Interest</a>
+        <a href="Ranchi_Science_center.html">Ranchi Science Center</a>
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class="banner">
+        <div class="centered">Jharkhand</div>
+      </div>
+    </div>
+    <header>Best Places</header>
+<br>
+<br>
+<br>
+<header style="background: rgb(127, 214, 127);">Places You Should Visit When In Jharkhand</header>
+<br>
+<br>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="./images/dasamfalls.jpg" style="width: 100%" />
+        <div class="text">Dasam Falls</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="./images/DHANBAD.jpg" style="width: 100%" />
+        <div class="text">Dhanbad</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="./images/HAZARIBAGH.jpg" style="width: 100%" />
+        <div class="text">Hazaribagh</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+<h1>Hazaribagh</h1>
+<p>About District
+Hazaribag is 93 km. from Ranchi by road. It is located on N.H.33. The district of Hazaribag is situated in the north east part of North Chotanagpur Division. The boundary of this district consists of districts of Gaya (BIHAR) and Koderma in the north, Giridih and Bokaro in the east, Ramgarh in the south and Chatra in the west. The districts of Koderma, Chatra, Ramgarh and Giridih have been bifurcated from this district. The district of Hazaribag is situated in the north east part of North Chotanagpur Division.
+
+The district of Hazaribag is a part of Chotanagpur plateau. This area is full of several plateaus, mountains and valleys. There are three natural divisions of this district – Medium Plateau, Lower Plateau and Damodar Valley. The district headquarter is a part of medium plateau, which is situated at the height of about 2,000 ft from the sea level. Except the western part of the medium plateau, the whole area is surrounded by the lower plateau. The height of lower plateau is about 1,300 ft above the sea level.Damodar Valley is in the southern part of this district where Ramgarh town is situated which is about 1,000 ft below the districts headquarter.</p>
+<h1>Dasam Falls</h1>
+<img src="./images/00.jpeg" alt="falls" class="img">
+<p>The Dassam Falls is a natural cascade across the Kanchi River, a tributary of the Subarnarekha River. The water falls from a height of 44 metres (144 ft). The sound of water echoes all around the place.Dassam Falls at one of the edges of the Ranchi plateau is one of the many scarp falls in the region.
+
+The Dassam Falls is an example of a nick point caused by rejuvenation. Knick point, also called a nick point or simply nick, represents breaks in slopes in the longitudinal profile of a river caused by rejuvenation. The break in channel gradient allows water to fall vertically giving rise to a waterfall.
+
+The water of the Dassam Falls is very clean and clear. It is natural for a tourist to be enticed to enter the water for a bath or swim but tourists are warned not to do so because of the current that is generated. There have been many cases of drowning in Dassam Falls. Nine people died of drowning between 2001 and 2006. </p>
+<h1>Dhanbad</h1>
+<img src="./images/001.jpeg" alt="dhanbad" class="img">
+<h2>About District</h2><p>
+Dhanbad district was constituted in 1956 by carving out the old  Dhanbad  subdivision, Chas and Chandankiyari police stations of the Sadar  subdivision of the erstwhile Manbhum district. Dhanbad is Police district  since 1928. The re-organisation of the districts in the State of Bihar which  took place after 1971 did not affect the district of Dhanbad. In 1991 a part  of   Dhanbad district was sliced away to form Bokaro district.</p>
+
+
+<h2>NATURAL DIVISIONS</h2><p>
+The district can be divided into three broad natural divisions, viz., (I) the north and north western portions consisting of  the hilly region, (ii) the uplands containing coal mines and most of the industries and (iii) the remaining uplands and plains lying to the south of the Damodar river consisting of cultivable flat lands . The north and north western division is separated for the entire length by the Grand trunk road.
+
+In the western middle part of the district are the Dhangi hills, situated in the strip falling between the Grand trunk road in the north and the Grand chord line of the Eastern Rly. In the south, these hills extend from Pradhankhanta to Govindpur, reaching a maximum altitude of 1,256 feet at Dhangi. Further north, a branch of the Parasnath hill runs through Topchanchi and Tundi, the highest point of 1,500 feet being reached at Lalki. The southern part of the district is largely comprised of undulating land. The general slope is from west to east, the direction followed by the two major rivers, Damodar and Barakar.
+</p>
+<h2>RIVERS</h2><p>
+
+The Damodar is the most important river of the Chotanagpur plateau. It rises in Palamu and flows eastward between the plateaus of Ranchi and Hazaribag. It is joined by the Bokaro, the Konar and the Barakar rivers. The Damodar enters Dhanbad district at its confluence with the Jamuria, a stream which marks the western boundary of Dhanbad with Hazaribagh District. Further east, the Damodar is joined by the Katri River which rises in the foot hills below Parasnath and traverses through the Coal-field Area. The Damodar flows for about 77 Km. through the district being joined by the Barakar at its eastern border near Chirkunda. The Panchet dam extending to roughly 6 Kms. is built on river Damodar. The hydel station there generates 40,000 K.W. per hour.
+
+The Barakar, which forms the northern boundary of the district, traverses about 77 Kms. In the district. It flows in south westerly direction up to Durgapur and then south till it joins the Damodar near Chirkuda. The Maithon dam is located on this river about 13 Kms. off its confluence with the Damodar. Attached to it is the Maithan Power Station with a generating capacity of 60,000 K.W.H.
+
+Among other small rivers in the district are Gobai, the Irji, the Khudia besides the river Katri.
+</p>
+ <h2>CLIMATIC CONDITIONS</h2><p>
+The climate of the district is characterised by general dryness. It is very pleasant during the cold weather from November to February. Thereafter the climate becomes warm. It remains hot until the monsoon breaks towards the middle of June. With the setting in of rains the temperature falls and humidity rises, July to October are the rainy months. July and August are the wettest months. The average rainfall during July is 287 mm and that in August 445 mm. The average annual rain fall in the district is approximately 1300mm.</p>
+    <!-- javascript -->
+    <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+  </body>
+</html>

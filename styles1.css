@@ -1,0 +1,18 @@
+.body {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+p {
+  padding: 10px;
+}
+ol > li {
+  margin: 30px;
+  text-decoration: underline;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+img {
+  padding: 10px;
+  display: block;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pilgrimage Sites</title>
+    <link rel="stylesheet" href="styles.css" />
+    
+    <!-- icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    
+    <!-- styles -->
+    <style>
+     * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.place {
+  position: relative;
+  display: none;
+  border: 0.3rem solid rgb(77, 73, 73);
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: rgb(226, 211, 182);
+  font-size: 20px;
+  background: rgb(228, 130, 65);
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  cursor: pointer;
+}
+  h1 {
+        text-decoration: underline;
+        margin-bottom: 1rem;
+        color: rgb(71, 175, 189);
+      }
+      p{
+        font-size: 1.2rem;
+      }
+</style>
+
+    <!-- javascript -->
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="pilgrimage.html">Pilgrimage Sites</a>
+        <a href="best_places.html">Places Of Interest</a>
+        <a href="Ranchi_Science_center.html">Ranchi Science Center</a>
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class="banner">
+        <div class="centered">Jharkhand</div>
+      </div>
+    </div>
+    <header>Pilgrimage Sites</header>
+    <br>
+    <br>
+    <br>
+      <marquee behavior="slide" direction="left" ><h3>Tap on any image to see it better</h3></marquee>
+    <div class="row">
+  <div class="column"><sup>1.</sup>
+    <img src="./images/img1.jpg" alt="JAGGANATH TEMPLE" style="width:75%" onclick="myFunction(this);">
+  </div>
+  <div class="column"><sup>2.</sup>
+    <img src="./images/img2.jpg" alt="RAJRAPPA TEMPLE" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column"><sup>3.</sup>
+    <img src="./images/img3.jpg" alt="DEORI TEMPLE" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column"><sup>4.</sup>
+    <img src="./images/img4.jpg" alt="BAIJU TEMPLE" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="place">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:75vw">
+  <div id="imgtext"></div>
+</div>
+<h1>Jagannath Temple</h1>
+    <p>Jagannath Temple in Ranchi, is a 17th century temple dedicated to Lord Jagannath. It was built by king of Barkagarh Jagannathpur Thakur Ani Nath Shahdeo, in 1691. Completed on December 25, 1691, it is located about 10 km from the main town. The temple is on top of a small hillock.</p>
+    <h1>Rajrappa</h1>
+    <p>Rajrappa is a waterfall and a pilgrimage centre in Ramgarh district in the Indian state of Jharkhand. <br>Rajrappa is located at 23°37′55″N 85°42′40″E.
+
+Rajrappa stands at the confluence of the Damodar and Bhairavi (locally called Bhera) rivers.
+
+Rajrappa is located off NH 23 connecting Ramgarh and Chas. It is 20 kilometres (12 mi) from Ramgarh,65 kilometres (40 mi) from Hazaribagh, 70 kilometres (43 mi) from Ranchi and 68 kilometres (42 mi) from Bokaro Steel City.
+
+</p>
+    <h1>Deori Temple</h1>
+    <p>Dewri Mandir is located in Tamar 60 km toward south from the capital of Indian states Jharkhand i.e. Ranchi. It is on the Tata-Ranchi Highway (NH33). It is a very old temple of Goddess Durga. The main attraction is that the 700 year old idol of the Goddess Durga has 16 Hands (Normally Goddess Durga has 8 Hands). The temple is very old and is currently under renovation. The temple is constructed via the placing of large stones on top of each other without any cementing material.
+
+At the temple devotees tie yellow and red sacred threads on bamboo for the fulfilment of their wishes. Upon the fulfillment of their wishes, they again come to the temple and untie the thread. Dedicated to Solha Bhuji Goddess, an avatar of Goddess Durga, Dewri Mandir temple is located a little outside the main city of Ranchi. Spread over nearly two acres, this old temple in Ranchi also houses an idol of Lord Shiva here. Legend has it that whoever has tried to alter the structure of the temple has had to face the wrath of the gods and suffer consequences. Dewri Temple is also believed to be the only temple where six tribal priests, known as Pahans, perform rituals and offer prayers alongside the Brahmin priests. Who are mainly known as Panda's. Located about 60 km from Ranchi, this temple is on the right side of the Ranchi-Tata road, toward the town of Tamar.</p>
+    <h1>Baiju Temple</h1>
+    <p>Vaidyanatha Jyotirlinga temple, also known as Baba Baidyanath dham and Baidyanath dham is one of the twelve Jyotirlingas, the most sacred abodes of Shiva. It is located in Deoghar in the Santhal Parganas division of the state of Jharkhand, India. It is a temple complex consisting of the main temple of Baba Baidyanath, where the Jyotirlinga is installed, and 21 other temples. <br>According to Hindu beliefs, the demon king Ravana worshipped Shiva at the current site of the temple to get the boons that he later used to wreak havoc in the world. Ravana offered his ten heads one after another to Shiva as a sacrifice. Pleased with this, Shiva descended to cure Ravana who was injured. As he acted as a doctor, he is referred to as Vaidhya ("doctor"). From this aspect of Shiva, the temple derives its name.</p>
+<!-- expanded images -->
+      <script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+    </div>
+  </body>
+</html>
